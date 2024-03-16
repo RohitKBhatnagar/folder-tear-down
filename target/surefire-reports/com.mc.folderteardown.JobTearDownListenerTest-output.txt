@@ -1,0 +1,175 @@
+=== Starting teardownIgnoredGlobalSharedLibraries(com.mc.folderteardown.JobTearDownListenerTest)
+   0.046 [id=74]	INFO	o.jvnet.hudson.test.JenkinsRule#createWebServer: Running on http://localhost:50495/jenkins/
+   0.172 [id=87]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
+   0.174 [id=86]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
+   0.573 [id=90]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
+   0.616 [id=93]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
+   1.411 [id=86]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
+   1.416 [id=88]	INFO	jenkins.InitReactorRunner$1#onAttained: System config loaded
+   1.417 [id=88]	INFO	jenkins.InitReactorRunner$1#onAttained: System config adapted
+   1.417 [id=88]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
+   1.419 [id=88]	INFO	jenkins.InitReactorRunner$1#onAttained: Configuration for all jobs updated
+   1.444 [id=90]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
+[junit1361212190129207497] $ git version
+git version 2.44.0.windows.1
+[junit5909250517864723069] $ git init
+Initialized empty Git repository in D:/WorkArea/Plugins/folder-tear-down/target/tmp/junit1361212190129207497/junit5909250517864723069/.git/
+[junit5909250517864723069] $ git add file
+[junit5909250517864723069] $ git config user.name "Git SampleRepoRule"
+[junit5909250517864723069] $ git config user.email gits@mplereporule
+[junit5909250517864723069] $ git commit --message=init
+[main (root-commit) bd25225] init
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 file
+[junit5909250517864723069] $ git add Jenkinsfile
+[junit5909250517864723069] $ git commit --all --message=flow
+[main 7b35c5d] flow
+ 2 files changed, 2 insertions(+)
+ create mode 100644 Jenkinsfile
+[junit5909250517864723069] $ git checkout -b feature
+Switched to a new branch 'feature'
+[junit5909250517864723069] $ git commit --all --message=tweaked
+[feature 26d41d9] tweaked
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+   4.396 [id=74]	INFO	jenkins.model.Jenkins#cleanUp: Stopping Jenkins
+   4.446 [id=74]	INFO	jenkins.model.Jenkins#cleanUp: Jenkins stopped
+=== Starting defaultJobConfiguredAndTriggered(com.mc.folderteardown.JobTearDownListenerTest)
+   0.028 [id=139]	INFO	o.jvnet.hudson.test.JenkinsRule#createWebServer: Running on http://localhost:50509/jenkins/
+   0.136 [id=152]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
+   0.138 [id=154]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
+   0.467 [id=156]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
+   0.504 [id=155]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
+   0.790 [id=155]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
+   0.795 [id=153]	INFO	jenkins.InitReactorRunner$1#onAttained: System config loaded
+   0.796 [id=153]	INFO	jenkins.InitReactorRunner$1#onAttained: System config adapted
+   0.796 [id=153]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
+   0.801 [id=152]	INFO	jenkins.InitReactorRunner$1#onAttained: Configuration for all jobs updated
+   0.824 [id=157]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
+[junit4959479420339715575] $ git version
+git version 2.44.0.windows.1
+[junit3469387686448938720] $ git init
+Initialized empty Git repository in D:/WorkArea/Plugins/folder-tear-down/target/tmp/junit4959479420339715575/junit3469387686448938720/.git/
+[junit3469387686448938720] $ git add file
+[junit3469387686448938720] $ git config user.name "Git SampleRepoRule"
+[junit3469387686448938720] $ git config user.email gits@mplereporule
+[junit3469387686448938720] $ git commit --message=init
+[main (root-commit) f30ddb9] init
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 file
+[junit3469387686448938720] $ git add Jenkinsfile
+[junit3469387686448938720] $ git commit --all --message=flow
+[main bf25666] flow
+ 2 files changed, 2 insertions(+)
+ create mode 100644 Jenkinsfile
+[junit3469387686448938720] $ git checkout -b feature
+Switched to a new branch 'feature'
+[junit3469387686448938720] $ git commit --all --message=tweaked
+[feature c2a4711] tweaked
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+   2.809 [id=139]	INFO	jenkins.model.Jenkins#cleanUp: Stopping Jenkins
+   2.867 [id=139]	INFO	jenkins.model.Jenkins#cleanUp: Jenkins stopped
+=== Starting pipelineDefinedJobTriggered(com.mc.folderteardown.JobTearDownListenerTest)
+   0.026 [id=196]	INFO	o.jvnet.hudson.test.JenkinsRule#createWebServer: Running on http://localhost:50522/jenkins/
+   0.140 [id=209]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
+   0.142 [id=208]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
+   0.446 [id=212]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
+   0.468 [id=211]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
+   0.841 [id=210]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
+   0.874 [id=214]	INFO	jenkins.InitReactorRunner$1#onAttained: System config loaded
+   0.885 [id=214]	INFO	jenkins.InitReactorRunner$1#onAttained: System config adapted
+   0.886 [id=214]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
+   0.954 [id=214]	INFO	jenkins.InitReactorRunner$1#onAttained: Configuration for all jobs updated
+   1.010 [id=208]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
+[junit5355366934644161024] $ git version
+git version 2.44.0.windows.1
+[junit1515985969799139928] $ git init
+Initialized empty Git repository in D:/WorkArea/Plugins/folder-tear-down/target/tmp/junit5355366934644161024/junit1515985969799139928/.git/
+[junit1515985969799139928] $ git add file
+[junit1515985969799139928] $ git config user.name "Git SampleRepoRule"
+[junit1515985969799139928] $ git config user.email gits@mplereporule
+[junit1515985969799139928] $ git commit --message=init
+[main (root-commit) 02b88a2] init
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 file
+[junit1515985969799139928] $ git add Jenkinsfile
+[junit1515985969799139928] $ git commit --all --message=flow
+[main 34462c9] flow
+ 2 files changed, 2 insertions(+)
+ create mode 100644 Jenkinsfile
+[junit1515985969799139928] $ git checkout -b feature
+Switched to a new branch 'feature'
+[junit1515985969799139928] $ git commit --all --message=tweaked
+[feature f769684] tweaked
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+   3.381 [id=196]	INFO	jenkins.model.Jenkins#cleanUp: Stopping Jenkins
+   3.436 [id=196]	INFO	jenkins.model.Jenkins#cleanUp: Jenkins stopped
+=== Starting userDefinedJobTriggered(com.mc.folderteardown.JobTearDownListenerTest)
+   0.028 [id=253]	INFO	o.jvnet.hudson.test.JenkinsRule#createWebServer: Running on http://localhost:50536/jenkins/
+   0.142 [id=266]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
+   0.144 [id=267]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
+   0.481 [id=265]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
+   0.525 [id=269]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
+   0.746 [id=270]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
+   0.750 [id=268]	INFO	jenkins.InitReactorRunner$1#onAttained: System config loaded
+   0.750 [id=268]	INFO	jenkins.InitReactorRunner$1#onAttained: System config adapted
+   0.750 [id=268]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
+   0.753 [id=272]	INFO	jenkins.InitReactorRunner$1#onAttained: Configuration for all jobs updated
+   0.781 [id=265]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
+[junit824024850068864308] $ git version
+git version 2.44.0.windows.1
+[junit4057446296232093347] $ git init
+Initialized empty Git repository in D:/WorkArea/Plugins/folder-tear-down/target/tmp/junit824024850068864308/junit4057446296232093347/.git/
+[junit4057446296232093347] $ git add file
+[junit4057446296232093347] $ git config user.name "Git SampleRepoRule"
+[junit4057446296232093347] $ git config user.email gits@mplereporule
+[junit4057446296232093347] $ git commit --message=init
+[main (root-commit) 6a735a7] init
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 file
+[junit4057446296232093347] $ git add Jenkinsfile
+[junit4057446296232093347] $ git commit --all --message=flow
+[main df254af] flow
+ 2 files changed, 2 insertions(+)
+ create mode 100644 Jenkinsfile
+[junit4057446296232093347] $ git checkout -b feature
+Switched to a new branch 'feature'
+[junit4057446296232093347] $ git commit --all --message=tweaked
+[feature 8fdb769] tweaked
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+   2.769 [id=253]	INFO	jenkins.model.Jenkins#cleanUp: Stopping Jenkins
+   2.810 [id=253]	INFO	jenkins.model.Jenkins#cleanUp: Jenkins stopped
+=== Starting pipelineDefinedJobTakesPrecedenceOverGlobalSettings(com.mc.folderteardown.JobTearDownListenerTest)
+   0.030 [id=310]	INFO	o.jvnet.hudson.test.JenkinsRule#createWebServer: Running on http://localhost:50547/jenkins/
+   0.130 [id=323]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
+   0.131 [id=322]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
+   0.388 [id=326]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
+   0.395 [id=325]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
+   0.809 [id=328]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
+   0.814 [id=328]	INFO	jenkins.InitReactorRunner$1#onAttained: System config loaded
+   0.815 [id=326]	INFO	jenkins.InitReactorRunner$1#onAttained: System config adapted
+   0.815 [id=326]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
+   0.815 [id=326]	INFO	jenkins.InitReactorRunner$1#onAttained: Configuration for all jobs updated
+   0.832 [id=324]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
+[junit1179741638407714272] $ git version
+git version 2.44.0.windows.1
+[junit5501393809530404045] $ git init
+Initialized empty Git repository in D:/WorkArea/Plugins/folder-tear-down/target/tmp/junit1179741638407714272/junit5501393809530404045/.git/
+[junit5501393809530404045] $ git add file
+[junit5501393809530404045] $ git config user.name "Git SampleRepoRule"
+[junit5501393809530404045] $ git config user.email gits@mplereporule
+[junit5501393809530404045] $ git commit --message=init
+[main (root-commit) 519c4b4] init
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 file
+[junit5501393809530404045] $ git add Jenkinsfile
+[junit5501393809530404045] $ git commit --all --message=flow
+[main d920977] flow
+ 2 files changed, 2 insertions(+)
+ create mode 100644 Jenkinsfile
+[junit5501393809530404045] $ git checkout -b feature
+Switched to a new branch 'feature'
+[junit5501393809530404045] $ git commit --all --message=tweaked
+[feature 8cdbb7a] tweaked
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+   2.724 [id=310]	INFO	jenkins.model.Jenkins#cleanUp: Stopping Jenkins
+   2.763 [id=310]	INFO	jenkins.model.Jenkins#cleanUp: Jenkins stopped

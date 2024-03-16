@@ -1,0 +1,21 @@
+-------------------------------------------------------------------------------
+Test set: io.jenkins.plugins.sample.SampleConfigurationTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 24.164 s <<< FAILURE! - in io.jenkins.plugins.sample.SampleConfigurationTest
+io.jenkins.plugins.sample.SampleConfigurationTest.uiAndStorage  Time elapsed: 24.145 s  <<< ERROR!
+com.gargoylesoftware.htmlunit.FailingHttpStatusCodeException: 500 Server Error for http://localhost:50561/jenkins/configure
+	at com.gargoylesoftware.htmlunit.WebClient.throwFailingHttpStatusCodeExceptionIfNecessary(WebClient.java:757)
+	at com.gargoylesoftware.htmlunit.WebClient.getPage(WebClient.java:509)
+	at com.gargoylesoftware.htmlunit.WebClient.getPage(WebClient.java:411)
+	at com.gargoylesoftware.htmlunit.WebClient.getPage(WebClient.java:546)
+	at com.gargoylesoftware.htmlunit.WebClient.getPage(WebClient.java:527)
+	at org.jvnet.hudson.test.JenkinsRule$WebClient.goTo(JenkinsRule.java:2602)
+	at org.jvnet.hudson.test.JenkinsRule$WebClient.goTo(JenkinsRule.java:2582)
+	at io.jenkins.plugins.sample.SampleConfigurationTest.lambda$uiAndStorage$0(SampleConfigurationTest.java:28)
+	at org.jvnet.hudson.test.JenkinsSessionRule$2.evaluate(JenkinsSessionRule.java:92)
+	at org.jvnet.hudson.test.JenkinsRule$1.evaluate(JenkinsRule.java:601)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:299)
+	at org.junit.internal.runners.statements.FailOnTimeout$CallableStatement.call(FailOnTimeout.java:293)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.lang.Thread.run(Thread.java:750)
+

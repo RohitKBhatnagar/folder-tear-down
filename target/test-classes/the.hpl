@@ -1,0 +1,23 @@
+Manifest-Version: 1.0
+Group-Id: io.jenkins.plugins
+Short-Name: folder-tear-down
+Long-Name: Folder Tear Down
+Url: https://github.com/jenkinsci/folder-tear-down-plugin
+Minimum-Java-Version: 1.8
+Plugin-Version: 1.0-SNAPSHOT (private-03/16/2024 10:42-dc-user)
+Hudson-Version: 2.277.1
+Jenkins-Version: 2.277.1
+Plugin-Dependencies: workflow-cps-global-lib:2.21,workflow-multibranch
+ :2.24,git:3.6.0
+Plugin-Developers: Rohit K Bhatnagar:RohitBhatnagar:Rohit.Bhatnagar@ma
+ stercard.com
+Plugin-License-Name: MIT License
+Plugin-License-Url: https://opensource.org/licenses/MIT
+Plugin-ScmUrl: https://github.com/jenkinsci/folder-tear-down-plugin
+Libraries: D:\WorkArea\Plugins\folder-tear-down\src\main\resources,D:\
+ WorkArea\Plugins\folder-tear-down\target\classes,C:\Users\dc-user\.m2
+ \repository\net\i2p\crypto\eddsa\0.3.0\eddsa-0.3.0.jar,C:\Users\dc-us
+ er\.m2\repository\org\jenkins-ci\annotation-indexer\1.12\annotation-i
+ ndexer-1.12.jar
+Resource-Path: D:\WorkArea\Plugins\folder-tear-down\src\main\webapp
+
