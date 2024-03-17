@@ -1,209 +1,209 @@
 === Starting teardownIgnoredGlobalSharedLibraries(com.mc.folderteardown.JobTearDownListenerTest)
-   0.120 [id=19]	INFO	o.jvnet.hudson.test.WarExploder#explode: Picking up existing exploded jenkins.war at D:\WorkArea\folder-tear-down\target\jenkins-for-test
-   0.586 [id=19]	INFO	o.jvnet.hudson.test.JenkinsRule#createWebServer: Running on http://localhost:52437/jenkins/
-   1.150 [id=34]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
-   2.149 [id=37]	INFO	hudson.PluginManager#considerDetachedPlugin: Loading a detached plugin as a dependency: C:\Users\dc-user\AppData\Local\Temp\2\jenkins9045413578197093869\plugins\javax-mail-api.jpi
-   9.033 [id=37]	INFO	hudson.PluginManager#considerDetachedPlugin: Loading a detached plugin as a dependency: C:\Users\dc-user\AppData\Local\Temp\2\jenkins9045413578197093869\plugins\command-launcher.jpi
-   9.151 [id=37]	INFO	hudson.PluginManager#considerDetachedPlugin: Loading a detached plugin as a dependency: C:\Users\dc-user\AppData\Local\Temp\2\jenkins9045413578197093869\plugins\jdk-tool.jpi
-   9.954 [id=33]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
-   9.965 [id=37]	INFO	j.b.api.BouncyCastlePlugin#start: D:\WorkArea\folder-tear-down\target\tmp\j h8282608148156498545\plugins\bouncycastle-api\WEB-INF\optional-lib not found; for non RealJenkinsRule this is fine and can be ignored.
-  12.796 [id=37]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
-  12.799 [id=36]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
-  12.799 [id=36]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
-  12.862 [id=36]	INFO	jenkins.InitReactorRunner$1#onAttained: System config loaded
-  12.862 [id=36]	INFO	jenkins.InitReactorRunner$1#onAttained: System config adapted
-  12.863 [id=35]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
-  12.864 [id=32]	INFO	jenkins.InitReactorRunner$1#onAttained: Configuration for all jobs updated
-  13.574 [id=33]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
-[junit11833649246953697723] $ git version
+   0.128 [id=19]	INFO	o.jvnet.hudson.test.WarExploder#explode: Picking up existing exploded jenkins.war at D:\WorkArea\folder-tear-down\target\jenkins-for-test
+   0.604 [id=19]	INFO	o.jvnet.hudson.test.JenkinsRule#createWebServer: Running on http://localhost:52693/jenkins/
+   1.149 [id=34]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
+   2.273 [id=35]	INFO	hudson.PluginManager#considerDetachedPlugin: Loading a detached plugin as a dependency: C:\Users\dc-user\AppData\Local\Temp\2\jenkins16795886886887433445\plugins\javax-mail-api.jpi
+   9.768 [id=36]	INFO	hudson.PluginManager#considerDetachedPlugin: Loading a detached plugin as a dependency: C:\Users\dc-user\AppData\Local\Temp\2\jenkins16795886886887433445\plugins\command-launcher.jpi
+   9.895 [id=36]	INFO	hudson.PluginManager#considerDetachedPlugin: Loading a detached plugin as a dependency: C:\Users\dc-user\AppData\Local\Temp\2\jenkins16795886886887433445\plugins\jdk-tool.jpi
+  10.693 [id=34]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
+  10.705 [id=35]	INFO	j.b.api.BouncyCastlePlugin#start: D:\WorkArea\folder-tear-down\target\tmp\j h14066669603295729387\plugins\bouncycastle-api\WEB-INF\optional-lib not found; for non RealJenkinsRule this is fine and can be ignored.
+  13.306 [id=36]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
+  13.307 [id=33]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
+  13.307 [id=33]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
+  13.372 [id=33]	INFO	jenkins.InitReactorRunner$1#onAttained: System config loaded
+  13.373 [id=33]	INFO	jenkins.InitReactorRunner$1#onAttained: System config adapted
+  13.373 [id=33]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
+  13.374 [id=33]	INFO	jenkins.InitReactorRunner$1#onAttained: Configuration for all jobs updated
+  13.983 [id=32]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
+[junit816467722264868967] $ git version
 git version 2.44.0.windows.1
-[junit9267057711261739457] $ git init --template=
-Initialized empty Git repository in C:/Users/dc-user/AppData/Local/Temp/2/junit11833649246953697723/junit9267057711261739457/.git/
+[junit13895612054165970876] $ git init --template=
+Initialized empty Git repository in C:/Users/dc-user/AppData/Local/Temp/2/junit816467722264868967/junit13895612054165970876/.git/
 $ git --version
-[junit9267057711261739457] $ git branch -m master
-[junit9267057711261739457] $ git add file
-[junit9267057711261739457] $ git config user.name "Git SampleRepoRule"
-[junit9267057711261739457] $ git config user.email gits@mplereporule
-[junit9267057711261739457] $ git config init.defaultbranch master
-[junit9267057711261739457] $ git config commit.gpgsign false
-[junit9267057711261739457] $ git commit --message=init
-[master (root-commit) ffb6bf4] init
+[junit13895612054165970876] $ git branch -m master
+[junit13895612054165970876] $ git add file
+[junit13895612054165970876] $ git config user.name "Git SampleRepoRule"
+[junit13895612054165970876] $ git config user.email gits@mplereporule
+[junit13895612054165970876] $ git config init.defaultbranch master
+[junit13895612054165970876] $ git config commit.gpgsign false
+[junit13895612054165970876] $ git commit --message=init
+[master (root-commit) 9efa920] init
  1 file changed, 0 insertions(+), 0 deletions(-)
  create mode 100644 file
-[junit9267057711261739457] $ git add Jenkinsfile
-[junit9267057711261739457] $ git commit --all --message=flow
-[master 6ba0f36] flow
+[junit13895612054165970876] $ git add Jenkinsfile
+[junit13895612054165970876] $ git commit --all --message=flow
+[master 3498186] flow
  2 files changed, 2 insertions(+)
  create mode 100644 Jenkinsfile
-[junit9267057711261739457] $ git checkout -b feature
+[junit13895612054165970876] $ git checkout -b feature
 Switched to a new branch 'feature'
-[junit9267057711261739457] $ git commit --all --message=tweaked
-[feature d5bbcbb] tweaked
+[junit13895612054165970876] $ git commit --all --message=tweaked
+[feature 82e23a8] tweaked
  2 files changed, 2 insertions(+), 2 deletions(-)
-  17.698 [id=19]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Stopping Jenkins
-  17.742 [id=19]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Jenkins stopped
-  17.833 [id=19]	INFO	o.j.h.t.TemporaryDirectoryAllocator#dispose: deleting D:\WorkArea\folder-tear-down\target\tmp\j h8282608148156498545
+  20.194 [id=19]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Stopping Jenkins
+  20.228 [id=19]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Jenkins stopped
+  20.315 [id=19]	INFO	o.j.h.t.TemporaryDirectoryAllocator#dispose: deleting D:\WorkArea\folder-tear-down\target\tmp\j h14066669603295729387
 === Starting defaultJobConfiguredAndTriggered(com.mc.folderteardown.JobTearDownListenerTest)
-   0.032 [id=95]	INFO	o.jvnet.hudson.test.JenkinsRule#createWebServer: Running on http://localhost:52447/jenkins/
-   0.354 [id=108]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
-   0.355 [id=114]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
-   0.358 [id=112]	INFO	j.b.api.BouncyCastlePlugin#start: D:\WorkArea\folder-tear-down\target\tmp\j h7998271081645757446\plugins\bouncycastle-api\WEB-INF\optional-lib not found; for non RealJenkinsRule this is fine and can be ignored.
-   0.717 [id=112]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
-   0.718 [id=108]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
-   0.718 [id=107]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
-   0.725 [id=107]	INFO	jenkins.InitReactorRunner$1#onAttained: System config loaded
-   0.725 [id=107]	INFO	jenkins.InitReactorRunner$1#onAttained: System config adapted
-   0.725 [id=110]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
-   0.726 [id=114]	INFO	jenkins.InitReactorRunner$1#onAttained: Configuration for all jobs updated
-   0.954 [id=111]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
-[junit7647337263382453250] $ git version
+   0.034 [id=108]	INFO	o.jvnet.hudson.test.JenkinsRule#createWebServer: Running on http://localhost:52706/jenkins/
+   0.297 [id=121]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
+   0.299 [id=126]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
+   0.302 [id=127]	INFO	j.b.api.BouncyCastlePlugin#start: D:\WorkArea\folder-tear-down\target\tmp\j h12547353352838475214\plugins\bouncycastle-api\WEB-INF\optional-lib not found; for non RealJenkinsRule this is fine and can be ignored.
+   0.671 [id=123]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
+   0.672 [id=125]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
+   0.672 [id=125]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
+   0.679 [id=127]	INFO	jenkins.InitReactorRunner$1#onAttained: System config loaded
+   0.679 [id=121]	INFO	jenkins.InitReactorRunner$1#onAttained: System config adapted
+   0.679 [id=121]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
+   0.680 [id=121]	INFO	jenkins.InitReactorRunner$1#onAttained: Configuration for all jobs updated
+   0.866 [id=120]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
+[junit17379782546732420043] $ git version
 git version 2.44.0.windows.1
-[junit4296971289939023541] $ git init --template=
-Initialized empty Git repository in C:/Users/dc-user/AppData/Local/Temp/2/junit7647337263382453250/junit4296971289939023541/.git/
+[junit909143085130886048] $ git init --template=
+Initialized empty Git repository in C:/Users/dc-user/AppData/Local/Temp/2/junit17379782546732420043/junit909143085130886048/.git/
 $ git --version
-[junit4296971289939023541] $ git branch -m master
-[junit4296971289939023541] $ git add file
-[junit4296971289939023541] $ git config user.name "Git SampleRepoRule"
-[junit4296971289939023541] $ git config user.email gits@mplereporule
-[junit4296971289939023541] $ git config init.defaultbranch master
-[junit4296971289939023541] $ git config commit.gpgsign false
-[junit4296971289939023541] $ git commit --message=init
-[master (root-commit) bbaaf5a] init
+[junit909143085130886048] $ git branch -m master
+[junit909143085130886048] $ git add file
+[junit909143085130886048] $ git config user.name "Git SampleRepoRule"
+[junit909143085130886048] $ git config user.email gits@mplereporule
+[junit909143085130886048] $ git config init.defaultbranch master
+[junit909143085130886048] $ git config commit.gpgsign false
+[junit909143085130886048] $ git commit --message=init
+[master (root-commit) c3e9347] init
  1 file changed, 0 insertions(+), 0 deletions(-)
  create mode 100644 file
-[junit4296971289939023541] $ git add Jenkinsfile
-[junit4296971289939023541] $ git commit --all --message=flow
-[master a80cbf5] flow
+[junit909143085130886048] $ git add Jenkinsfile
+[junit909143085130886048] $ git commit --all --message=flow
+[master 7d0f803] flow
  2 files changed, 2 insertions(+)
  create mode 100644 Jenkinsfile
-[junit4296971289939023541] $ git checkout -b feature
+[junit909143085130886048] $ git checkout -b feature
 Switched to a new branch 'feature'
-[junit4296971289939023541] $ git commit --all --message=tweaked
-[feature 28db490] tweaked
+[junit909143085130886048] $ git commit --all --message=tweaked
+[feature 2aaf3c9] tweaked
  2 files changed, 2 insertions(+), 2 deletions(-)
-   4.545 [id=95]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Stopping Jenkins
-   4.558 [id=95]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Jenkins stopped
-   4.625 [id=95]	INFO	o.j.h.t.TemporaryDirectoryAllocator#dispose: deleting D:\WorkArea\folder-tear-down\target\tmp\j h7998271081645757446
+   4.668 [id=108]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Stopping Jenkins
+   4.695 [id=108]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Jenkins stopped
+   4.767 [id=108]	INFO	o.j.h.t.TemporaryDirectoryAllocator#dispose: deleting D:\WorkArea\folder-tear-down\target\tmp\j h12547353352838475214
 === Starting pipelineDefinedJobTriggered(com.mc.folderteardown.JobTearDownListenerTest)
-   0.022 [id=157]	INFO	o.jvnet.hudson.test.JenkinsRule#createWebServer: Running on http://localhost:52452/jenkins/
-   0.271 [id=170]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
-   0.272 [id=176]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
-   0.276 [id=172]	INFO	j.b.api.BouncyCastlePlugin#start: D:\WorkArea\folder-tear-down\target\tmp\j h2034247285683904851\plugins\bouncycastle-api\WEB-INF\optional-lib not found; for non RealJenkinsRule this is fine and can be ignored.
-   0.603 [id=169]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
-   0.604 [id=176]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
-   0.604 [id=176]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
-   0.608 [id=170]	INFO	jenkins.InitReactorRunner$1#onAttained: System config loaded
-   0.609 [id=174]	INFO	jenkins.InitReactorRunner$1#onAttained: System config adapted
-   0.609 [id=174]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
-   0.609 [id=174]	INFO	jenkins.InitReactorRunner$1#onAttained: Configuration for all jobs updated
-   0.794 [id=175]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
-[junit12966355272357194784] $ git version
+   0.026 [id=170]	INFO	o.jvnet.hudson.test.JenkinsRule#createWebServer: Running on http://localhost:52709/jenkins/
+   0.278 [id=183]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
+   0.280 [id=188]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
+   0.282 [id=184]	INFO	j.b.api.BouncyCastlePlugin#start: D:\WorkArea\folder-tear-down\target\tmp\j h15169121924151915897\plugins\bouncycastle-api\WEB-INF\optional-lib not found; for non RealJenkinsRule this is fine and can be ignored.
+   0.639 [id=185]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
+   0.640 [id=189]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
+   0.640 [id=188]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
+   0.645 [id=188]	INFO	jenkins.InitReactorRunner$1#onAttained: System config loaded
+   0.646 [id=188]	INFO	jenkins.InitReactorRunner$1#onAttained: System config adapted
+   0.646 [id=188]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
+   0.646 [id=188]	INFO	jenkins.InitReactorRunner$1#onAttained: Configuration for all jobs updated
+   0.838 [id=185]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
+[junit5590412989020026073] $ git version
 git version 2.44.0.windows.1
-[junit12026432122014385408] $ git init --template=
-Initialized empty Git repository in C:/Users/dc-user/AppData/Local/Temp/2/junit12966355272357194784/junit12026432122014385408/.git/
+[junit6402543015519996331] $ git init --template=
+Initialized empty Git repository in C:/Users/dc-user/AppData/Local/Temp/2/junit5590412989020026073/junit6402543015519996331/.git/
 $ git --version
-[junit12026432122014385408] $ git branch -m master
-[junit12026432122014385408] $ git add file
-[junit12026432122014385408] $ git config user.name "Git SampleRepoRule"
-[junit12026432122014385408] $ git config user.email gits@mplereporule
-[junit12026432122014385408] $ git config init.defaultbranch master
-[junit12026432122014385408] $ git config commit.gpgsign false
-[junit12026432122014385408] $ git commit --message=init
-[master (root-commit) 4e232b1] init
+[junit6402543015519996331] $ git branch -m master
+[junit6402543015519996331] $ git add file
+[junit6402543015519996331] $ git config user.name "Git SampleRepoRule"
+[junit6402543015519996331] $ git config user.email gits@mplereporule
+[junit6402543015519996331] $ git config init.defaultbranch master
+[junit6402543015519996331] $ git config commit.gpgsign false
+[junit6402543015519996331] $ git commit --message=init
+[master (root-commit) a63d963] init
  1 file changed, 0 insertions(+), 0 deletions(-)
  create mode 100644 file
-[junit12026432122014385408] $ git add Jenkinsfile
-[junit12026432122014385408] $ git commit --all --message=flow
-[master 5afbe0b] flow
+[junit6402543015519996331] $ git add Jenkinsfile
+[junit6402543015519996331] $ git commit --all --message=flow
+[master 6a4ac66] flow
  2 files changed, 2 insertions(+)
  create mode 100644 Jenkinsfile
-[junit12026432122014385408] $ git checkout -b feature
+[junit6402543015519996331] $ git checkout -b feature
 Switched to a new branch 'feature'
-[junit12026432122014385408] $ git commit --all --message=tweaked
-[feature 1f294bb] tweaked
+[junit6402543015519996331] $ git commit --all --message=tweaked
+[feature fb999a8] tweaked
  2 files changed, 2 insertions(+), 2 deletions(-)
-   4.753 [id=157]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Stopping Jenkins
-   4.770 [id=157]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Jenkins stopped
-   4.828 [id=157]	INFO	o.j.h.t.TemporaryDirectoryAllocator#dispose: deleting D:\WorkArea\folder-tear-down\target\tmp\j h2034247285683904851
+   5.087 [id=170]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Stopping Jenkins
+   5.108 [id=170]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Jenkins stopped
+   5.172 [id=170]	INFO	o.j.h.t.TemporaryDirectoryAllocator#dispose: deleting D:\WorkArea\folder-tear-down\target\tmp\j h15169121924151915897
 === Starting userDefinedJobTriggered(com.mc.folderteardown.JobTearDownListenerTest)
-   0.025 [id=219]	INFO	o.jvnet.hudson.test.JenkinsRule#createWebServer: Running on http://localhost:52455/jenkins/
-   0.270 [id=232]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
-   0.271 [id=237]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
-   0.273 [id=235]	INFO	j.b.api.BouncyCastlePlugin#start: D:\WorkArea\folder-tear-down\target\tmp\j h1054816662750151190\plugins\bouncycastle-api\WEB-INF\optional-lib not found; for non RealJenkinsRule this is fine and can be ignored.
-   0.635 [id=238]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
-   0.635 [id=233]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
-   0.636 [id=233]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
-   0.641 [id=233]	INFO	jenkins.InitReactorRunner$1#onAttained: System config loaded
-   0.642 [id=231]	INFO	jenkins.InitReactorRunner$1#onAttained: System config adapted
-   0.642 [id=231]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
-   0.642 [id=231]	INFO	jenkins.InitReactorRunner$1#onAttained: Configuration for all jobs updated
-   0.829 [id=238]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
-[junit7004064647383613955] $ git version
+   0.026 [id=232]	INFO	o.jvnet.hudson.test.JenkinsRule#createWebServer: Running on http://localhost:52714/jenkins/
+   0.278 [id=245]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
+   0.280 [id=251]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
+   0.282 [id=244]	INFO	j.b.api.BouncyCastlePlugin#start: D:\WorkArea\folder-tear-down\target\tmp\j h14693658711779345536\plugins\bouncycastle-api\WEB-INF\optional-lib not found; for non RealJenkinsRule this is fine and can be ignored.
+   0.624 [id=247]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
+   0.625 [id=246]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
+   0.626 [id=245]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
+   0.631 [id=249]	INFO	jenkins.InitReactorRunner$1#onAttained: System config loaded
+   0.632 [id=250]	INFO	jenkins.InitReactorRunner$1#onAttained: System config adapted
+   0.633 [id=250]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
+   0.633 [id=249]	INFO	jenkins.InitReactorRunner$1#onAttained: Configuration for all jobs updated
+   0.801 [id=251]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
+[junit5562298037848708289] $ git version
 git version 2.44.0.windows.1
-[junit8747125664710846173] $ git init --template=
-Initialized empty Git repository in C:/Users/dc-user/AppData/Local/Temp/2/junit7004064647383613955/junit8747125664710846173/.git/
+[junit93006175902170438] $ git init --template=
+Initialized empty Git repository in C:/Users/dc-user/AppData/Local/Temp/2/junit5562298037848708289/junit93006175902170438/.git/
 $ git --version
-[junit8747125664710846173] $ git branch -m master
-[junit8747125664710846173] $ git add file
-[junit8747125664710846173] $ git config user.name "Git SampleRepoRule"
-[junit8747125664710846173] $ git config user.email gits@mplereporule
-[junit8747125664710846173] $ git config init.defaultbranch master
-[junit8747125664710846173] $ git config commit.gpgsign false
-[junit8747125664710846173] $ git commit --message=init
-[master (root-commit) cfd4a2c] init
+[junit93006175902170438] $ git branch -m master
+[junit93006175902170438] $ git add file
+[junit93006175902170438] $ git config user.name "Git SampleRepoRule"
+[junit93006175902170438] $ git config user.email gits@mplereporule
+[junit93006175902170438] $ git config init.defaultbranch master
+[junit93006175902170438] $ git config commit.gpgsign false
+[junit93006175902170438] $ git commit --message=init
+[master (root-commit) 11a1c66] init
  1 file changed, 0 insertions(+), 0 deletions(-)
  create mode 100644 file
-[junit8747125664710846173] $ git add Jenkinsfile
-[junit8747125664710846173] $ git commit --all --message=flow
-[master 6b4b1ff] flow
+[junit93006175902170438] $ git add Jenkinsfile
+[junit93006175902170438] $ git commit --all --message=flow
+[master 2202384] flow
  2 files changed, 2 insertions(+)
  create mode 100644 Jenkinsfile
-[junit8747125664710846173] $ git checkout -b feature
+[junit93006175902170438] $ git checkout -b feature
 Switched to a new branch 'feature'
-[junit8747125664710846173] $ git commit --all --message=tweaked
-[feature 61e51fa] tweaked
+[junit93006175902170438] $ git commit --all --message=tweaked
+[feature 9b1d819] tweaked
  2 files changed, 2 insertions(+), 2 deletions(-)
-   4.544 [id=219]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Stopping Jenkins
-   4.561 [id=219]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Jenkins stopped
-   4.631 [id=219]	INFO	o.j.h.t.TemporaryDirectoryAllocator#dispose: deleting D:\WorkArea\folder-tear-down\target\tmp\j h1054816662750151190
+   4.829 [id=232]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Stopping Jenkins
+   4.843 [id=232]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Jenkins stopped
+   4.910 [id=232]	INFO	o.j.h.t.TemporaryDirectoryAllocator#dispose: deleting D:\WorkArea\folder-tear-down\target\tmp\j h14693658711779345536
 === Starting pipelineDefinedJobTakesPrecedenceOverGlobalSettings(com.mc.folderteardown.JobTearDownListenerTest)
-   0.027 [id=281]	INFO	o.jvnet.hudson.test.JenkinsRule#createWebServer: Running on http://localhost:52459/jenkins/
-   0.285 [id=294]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
-   0.286 [id=299]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
-   0.288 [id=298]	INFO	j.b.api.BouncyCastlePlugin#start: D:\WorkArea\folder-tear-down\target\tmp\j h4464781473074110460\plugins\bouncycastle-api\WEB-INF\optional-lib not found; for non RealJenkinsRule this is fine and can be ignored.
-   0.648 [id=298]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
-   0.649 [id=297]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
-   0.649 [id=297]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
-   0.654 [id=293]	INFO	jenkins.InitReactorRunner$1#onAttained: System config loaded
-   0.654 [id=293]	INFO	jenkins.InitReactorRunner$1#onAttained: System config adapted
-   0.654 [id=293]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
-   0.655 [id=300]	INFO	jenkins.InitReactorRunner$1#onAttained: Configuration for all jobs updated
-   0.850 [id=295]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
-[junit2879116093962506076] $ git version
+   0.024 [id=294]	INFO	o.jvnet.hudson.test.JenkinsRule#createWebServer: Running on http://localhost:52717/jenkins/
+   0.270 [id=307]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
+   0.271 [id=312]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
+   0.273 [id=309]	INFO	j.b.api.BouncyCastlePlugin#start: D:\WorkArea\folder-tear-down\target\tmp\j h2826425567173320953\plugins\bouncycastle-api\WEB-INF\optional-lib not found; for non RealJenkinsRule this is fine and can be ignored.
+   0.667 [id=307]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
+   0.668 [id=311]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
+   0.668 [id=311]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
+   0.671 [id=311]	INFO	jenkins.InitReactorRunner$1#onAttained: System config loaded
+   0.671 [id=311]	INFO	jenkins.InitReactorRunner$1#onAttained: System config adapted
+   0.671 [id=311]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
+   0.672 [id=311]	INFO	jenkins.InitReactorRunner$1#onAttained: Configuration for all jobs updated
+   0.857 [id=313]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
+[junit14035411228637499091] $ git version
 git version 2.44.0.windows.1
-[junit4054720703872899850] $ git init --template=
-Initialized empty Git repository in C:/Users/dc-user/AppData/Local/Temp/2/junit2879116093962506076/junit4054720703872899850/.git/
+[junit1126175819604795374] $ git init --template=
+Initialized empty Git repository in C:/Users/dc-user/AppData/Local/Temp/2/junit14035411228637499091/junit1126175819604795374/.git/
 $ git --version
-[junit4054720703872899850] $ git branch -m master
-[junit4054720703872899850] $ git add file
-[junit4054720703872899850] $ git config user.name "Git SampleRepoRule"
-[junit4054720703872899850] $ git config user.email gits@mplereporule
-[junit4054720703872899850] $ git config init.defaultbranch master
-[junit4054720703872899850] $ git config commit.gpgsign false
-[junit4054720703872899850] $ git commit --message=init
-[master (root-commit) daf5791] init
+[junit1126175819604795374] $ git branch -m master
+[junit1126175819604795374] $ git add file
+[junit1126175819604795374] $ git config user.name "Git SampleRepoRule"
+[junit1126175819604795374] $ git config user.email gits@mplereporule
+[junit1126175819604795374] $ git config init.defaultbranch master
+[junit1126175819604795374] $ git config commit.gpgsign false
+[junit1126175819604795374] $ git commit --message=init
+[master (root-commit) caeb6c4] init
  1 file changed, 0 insertions(+), 0 deletions(-)
  create mode 100644 file
-[junit4054720703872899850] $ git add Jenkinsfile
-[junit4054720703872899850] $ git commit --all --message=flow
-[master 26102bb] flow
+[junit1126175819604795374] $ git add Jenkinsfile
+[junit1126175819604795374] $ git commit --all --message=flow
+[master 0c6c4b3] flow
  2 files changed, 2 insertions(+)
  create mode 100644 Jenkinsfile
-[junit4054720703872899850] $ git checkout -b feature
+[junit1126175819604795374] $ git checkout -b feature
 Switched to a new branch 'feature'
-[junit4054720703872899850] $ git commit --all --message=tweaked
-[feature 0e7d935] tweaked
+[junit1126175819604795374] $ git commit --all --message=tweaked
+[feature 85768c5] tweaked
  2 files changed, 2 insertions(+), 2 deletions(-)
-   6.359 [id=281]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Stopping Jenkins
-   6.389 [id=281]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Jenkins stopped
-   6.458 [id=281]	INFO	o.j.h.t.TemporaryDirectoryAllocator#dispose: deleting D:\WorkArea\folder-tear-down\target\tmp\j h4464781473074110460
+   7.149 [id=294]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Stopping Jenkins
+   7.173 [id=294]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Jenkins stopped
+   7.238 [id=294]	INFO	o.j.h.t.TemporaryDirectoryAllocator#dispose: deleting D:\WorkArea\folder-tear-down\target\tmp\j h2826425567173320953

@@ -21,8 +21,7 @@
         <gitHubRepo>jenkinsci/${project.artifactId}-plugin</gitHubRepo>
     </properties>
     <name>Folder Tear Down</name>
-<!--    <url>https://github.com/jenkinsci/${project.artifactId}-plugin</url>-->
-    <url>https://github.com/jenkinsci/${project.artifactId}</url>
+    <url>https://github.com/jenkinsci/${project.artifactId}-plugin</url>
     <dependencyManagement>
         <dependencies>
             <dependency>

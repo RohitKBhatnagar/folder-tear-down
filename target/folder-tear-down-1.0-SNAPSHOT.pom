@@ -8,7 +8,7 @@
   <packaging>hpi</packaging>
   <name>Folder Tear Down</name>
   <description>The Jenkins Plugins Parent POM Project</description>
-  <url>https://github.com/jenkinsci/folder-tear-down</url>
+  <url>https://github.com/jenkinsci/folder-tear-down-plugin</url>
   <inceptionYear>2016</inceptionYear>
   <licenses>
     <license>

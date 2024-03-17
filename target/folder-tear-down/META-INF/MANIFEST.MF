@@ -9,8 +9,8 @@ Group-Id: io.jenkins.plugins
 Artifact-Id: folder-tear-down
 Short-Name: folder-tear-down
 Long-Name: Folder Tear Down
-Url: https://github.com/jenkinsci/folder-tear-down
-Plugin-Version: 1.0-SNAPSHOT (private-b3772574-dc-user)
+Url: https://github.com/jenkinsci/folder-tear-down-plugin
+Plugin-Version: 1.0-SNAPSHOT (private-dadd5d0a-dc-user)
 Hudson-Version: 2.426.3
 Jenkins-Version: 2.426.3
 Plugin-Dependencies: workflow-cps-global-lib:2.21,workflow-multibranch:7
@@ -23,6 +23,6 @@ Plugin-ScmConnection: scm:git:https://github.com/jenkinsci/folder-tear-d
  own-plugin
 Plugin-ScmTag: HEAD
 Plugin-ScmUrl: https://github.com/jenkinsci/folder-tear-down-plugin
-Plugin-GitHash: b3772574b952f7050692d54829feb2a1e70dff0a
-Implementation-Build: b3772574b952f7050692d54829feb2a1e70dff0a
+Plugin-GitHash: dadd5d0a3b14295d11553594a07e76f3025aa350
+Implementation-Build: dadd5d0a3b14295d11553594a07e76f3025aa350
 
