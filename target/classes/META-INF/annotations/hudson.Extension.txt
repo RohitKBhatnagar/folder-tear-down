@@ -1,5 +1,0 @@
-# informational; use java -jar sezpoz.jar to see authoritative contents
-com.mc.folderteardown.JobTearDownConfiguration
-com.mc.folderteardown.JobTearDownListener
-com.mc.folderteardown.JobTearDownProperty$DescriptorImpl
-io.jenkins.plugins.sample.SampleConfiguration
