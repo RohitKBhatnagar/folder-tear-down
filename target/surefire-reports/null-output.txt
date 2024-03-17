@@ -1,0 +1,1 @@
+Running tests for io.jenkins.plugins:folder-tear-down:1.0-SNAPSHOT

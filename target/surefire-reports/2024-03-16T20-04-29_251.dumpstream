@@ -1,0 +1,15 @@
+# Created at 2024-03-16T20:04:31.272
+Boot Manifest-JAR contains absolute paths in classpath 'D:\WorkArea\folder-tear-down\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+
+# Created at 2024-03-16T20:05:06.108
+Boot Manifest-JAR contains absolute paths in classpath 'D:\WorkArea\folder-tear-down\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+
+# Created at 2024-03-16T20:05:50.883
+Boot Manifest-JAR contains absolute paths in classpath 'D:\WorkArea\folder-tear-down\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+

@@ -4,7 +4,7 @@
     <parent>
         <groupId>org.jenkins-ci.plugins</groupId>
         <artifactId>plugin</artifactId>
-        <version>4.27</version>
+        <version>4.78</version>
         <relativePath />
     </parent>
     <groupId>io.jenkins.plugins</groupId>
@@ -14,20 +14,21 @@
     <properties>
         <revision>1.0</revision>
         <changelist>-SNAPSHOT</changelist>
-        <jenkins.version>2.277.1</jenkins.version>
-        <java.level>8</java.level>
-        <git.version>3.6.0</git.version>
-        <multibranch.version>2.24</multibranch.version>
+        <jenkins.version>2.426.3</jenkins.version>
+        <java.level>17</java.level>
+        <git.version>5.2.1</git.version>
+        <multibranch.version>756.v891d88f2cd46</multibranch.version>
         <gitHubRepo>jenkinsci/${project.artifactId}-plugin</gitHubRepo>
     </properties>
     <name>Folder Tear Down</name>
-    <url>https://github.com/jenkinsci/${project.artifactId}-plugin</url>
+<!--    <url>https://github.com/jenkinsci/${project.artifactId}-plugin</url>-->
+    <url>https://github.com/jenkinsci/${project.artifactId}</url>
     <dependencyManagement>
         <dependencies>
             <dependency>
                 <groupId>io.jenkins.tools.bom</groupId>
-                <artifactId>bom-2.277.x</artifactId>
-                <version>950.v396cb834de1e</version>
+                <artifactId>bom-2.426.x</artifactId>
+                <version>2555.v3190a_8a_c60c6</version>
                 <scope>import</scope>
                 <type>pom</type>
             </dependency>
@@ -43,9 +44,9 @@
     <!-- If you want this to appear on the plugin site page: -->
     <developers>
       <developer>
-        <id>RohitBhatnagar</id>
+        <id>RohitKBhatnagar</id>
         <name>Rohit K Bhatnagar</name>
-        <email>Rohit.Bhatnagar@mastercard.com</email>
+        <email>RohitKBhatnagar@gmail.com</email>
       </developer>
     </developers>
     <scm>
@@ -125,8 +126,12 @@
             <version>1.53</version>
             <scope>test</scope>
         </dependency>
+<!--        <dependency>-->
+<!--            <groupId>org.htmlunit</groupId>-->
+<!--            <artifactId>htmlunit</artifactId>-->
+<!--            <version>3.6.0</version>-->
+<!--        </dependency>-->
     </dependencies>
-
     <repositories>
         <repository>
             <id>repo.jenkins-ci.org</id>

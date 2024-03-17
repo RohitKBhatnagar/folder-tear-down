@@ -1,1 +1,3 @@
+io\jenkins\plugins\sample\SampleConfigurationTest.class
 InjectedTest.class
+com\mc\folderteardown\JobTearDownListenerTest.class

@@ -1,77 +1,66 @@
-Running tests for io.jenkins.plugins:folder-tear-down:1.0-SNAPSHOT
-Mar 16, 2024 10:42:38 AM org.eclipse.jetty.util.log.Log initialized
-INFO: Logging initialized @1873ms to org.eclipse.jetty.util.log.Slf4jLog
-Mar 16, 2024 10:42:40 AM org.jvnet.hudson.test.WarExploder explode
-INFO: Exploding C:\Users\dc-user\.m2\repository\org\jenkins-ci\main\jenkins-war\2.277.1\jenkins-war-2.277.1.war into D:\WorkArea\Plugins\folder-tear-down\target\jenkins-for-test
-Mar 16, 2024 10:42:55 AM org.eclipse.jetty.server.handler.ContextHandler setContextPath
+Mar 16, 2024 8:09:36 PM org.jvnet.hudson.test.WarExploder explode
+INFO: Picking up existing exploded jenkins.war at D:\WorkArea\folder-tear-down\target\jenkins-for-test
+Mar 16, 2024 8:09:36 PM org.eclipse.jetty.server.handler.ContextHandler setContextPath
 WARNING: Empty contextPath
-Mar 16, 2024 10:42:55 AM org.eclipse.jetty.server.Server doStart
-INFO: jetty-9.4.41.v20210516; built: 2021-05-16T23:56:28.993Z; git: 98607f93c7833e7dc59489b13f3cb0a114fb9f4c; jvm 1.8.0_402-b06
-Mar 16, 2024 10:42:55 AM org.eclipse.jetty.webapp.StandardDescriptorProcessor visitServlet
+Mar 16, 2024 8:09:36 PM org.eclipse.jetty.server.Server doStart
+INFO: jetty-10.0.19; built: 2023-12-15T20:38:32.477Z; git: 8492d1c78f122bb30cce20aecfa07e7283facd47; jvm 17.0.9+9
+Mar 16, 2024 8:09:37 PM org.eclipse.jetty.webapp.StandardDescriptorProcessor visitServlet
 INFO: NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
-Mar 16, 2024 10:42:55 AM org.eclipse.jetty.server.session.DefaultSessionIdManager doStart
-INFO: DefaultSessionIdManager workerName=node0
-Mar 16, 2024 10:42:55 AM org.eclipse.jetty.server.session.DefaultSessionIdManager doStart
-INFO: No SessionScavenger set, using defaults
-Mar 16, 2024 10:42:55 AM org.eclipse.jetty.server.session.HouseKeeper startScavenging
-INFO: node0 Scavenging every 600000ms
-Mar 16, 2024 10:42:55 AM org.eclipse.jetty.server.handler.ContextHandler doStart
-INFO: Started o.e.j.w.WebAppContext@4678a2eb{Jenkins v2.277.1,/,file:///D:/WorkArea/Plugins/folder-tear-down/target/jenkins-for-test/,AVAILABLE}{D:\WorkArea\Plugins\folder-tear-down\target\jenkins-for-test}
-Mar 16, 2024 10:42:56 AM org.eclipse.jetty.server.AbstractConnector doStart
-INFO: Started ServerConnector@73173f63{HTTP/1.1, (http/1.1)}{localhost:50461}
-Mar 16, 2024 10:42:56 AM org.eclipse.jetty.server.Server doStart
-INFO: Started @19513ms
-Mar 16, 2024 10:42:57 AM jenkins.InitReactorRunner$1 onAttained
+Mar 16, 2024 8:09:37 PM org.eclipse.jetty.server.session.DefaultSessionIdManager doStart
+INFO: Session workerName=node0
+Mar 16, 2024 8:09:37 PM org.eclipse.jetty.server.handler.ContextHandler doStart
+INFO: Started o.e.j.w.WebAppContext@8f2098e{Jenkins v2.426.3,/,file:///D:/WorkArea/folder-tear-down/target/jenkins-for-test/,AVAILABLE}{D:\WorkArea\folder-tear-down\target\jenkins-for-test}
+Mar 16, 2024 8:09:37 PM org.eclipse.jetty.server.AbstractConnector doStart
+INFO: Started ServerConnector@23202c31{HTTP/1.1, (http/1.1)}{localhost:52427}
+Mar 16, 2024 8:09:37 PM org.eclipse.jetty.server.Server doStart
+INFO: Started Server@e3994ef{STARTING}[10.0.19,sto=0] @3164ms
+Mar 16, 2024 8:09:37 PM jenkins.InitReactorRunner$1 onAttained
 INFO: Started initialization
-Mar 16, 2024 10:43:02 AM hudson.PluginManager considerDetachedPlugin
-INFO: Loading a detached plugin as a dependency: D:\WorkArea\Plugins\folder-tear-down\target\tmp\jenkins1606331123605458288\plugins\bouncycastle-api.jpi
-Mar 16, 2024 10:43:02 AM hudson.PluginManager considerDetachedPlugin
-INFO: Loading a detached plugin as a dependency: D:\WorkArea\Plugins\folder-tear-down\target\tmp\jenkins1606331123605458288\plugins\command-launcher.jpi
-Mar 16, 2024 10:43:03 AM hudson.PluginManager considerDetachedPlugin
-INFO: Loading a detached plugin as a dependency: D:\WorkArea\Plugins\folder-tear-down\target\tmp\jenkins1606331123605458288\plugins\jdk-tool.jpi
-Mar 16, 2024 10:43:18 AM jenkins.InitReactorRunner$1 onAttained
+Mar 16, 2024 8:09:38 PM hudson.PluginManager considerDetachedPlugin
+INFO: Loading a detached plugin as a dependency: C:\Users\dc-user\AppData\Local\Temp\2\jenkins10220474802616335830\plugins\javax-mail-api.jpi
+Mar 16, 2024 8:09:45 PM hudson.PluginManager considerDetachedPlugin
+INFO: Loading a detached plugin as a dependency: C:\Users\dc-user\AppData\Local\Temp\2\jenkins10220474802616335830\plugins\command-launcher.jpi
+Mar 16, 2024 8:09:45 PM hudson.PluginManager considerDetachedPlugin
+INFO: Loading a detached plugin as a dependency: C:\Users\dc-user\AppData\Local\Temp\2\jenkins10220474802616335830\plugins\jdk-tool.jpi
+Mar 16, 2024 8:09:46 PM jenkins.InitReactorRunner$1 onAttained
 INFO: Listed all plugins
-Mar 16, 2024 10:43:18 AM jenkins.bouncycastle.api.SecurityProviderInitializer addSecurityProvider
-INFO: Initializing Bouncy Castle security provider.
-Mar 16, 2024 10:43:18 AM jenkins.bouncycastle.api.SecurityProviderInitializer addSecurityProvider
-INFO: Bouncy Castle security provider initialized.
-Mar 16, 2024 10:43:23 AM jenkins.InitReactorRunner$1 onAttained
+Mar 16, 2024 8:09:46 PM jenkins.bouncycastle.api.BouncyCastlePlugin start
+INFO: D:\WorkArea\folder-tear-down\target\tmp\j h15044935751981641686\plugins\bouncycastle-api\WEB-INF\optional-lib not found; for non RealJenkinsRule this is fine and can be ignored.
+Mar 16, 2024 8:09:49 PM jenkins.InitReactorRunner$1 onAttained
 INFO: Prepared all plugins
-Mar 16, 2024 10:43:23 AM jenkins.InitReactorRunner$1 onAttained
+Mar 16, 2024 8:09:49 PM jenkins.InitReactorRunner$1 onAttained
 INFO: Started all plugins
-Mar 16, 2024 10:43:25 AM jenkins.InitReactorRunner$1 onAttained
+Mar 16, 2024 8:09:49 PM jenkins.InitReactorRunner$1 onAttained
 INFO: Augmented all extensions
-Mar 16, 2024 10:43:25 AM jenkins.InitReactorRunner$1 onAttained
+Mar 16, 2024 8:09:49 PM jenkins.InitReactorRunner$1 onAttained
 INFO: System config loaded
-Mar 16, 2024 10:43:25 AM jenkins.InitReactorRunner$1 onAttained
+Mar 16, 2024 8:09:49 PM jenkins.InitReactorRunner$1 onAttained
 INFO: System config adapted
-Mar 16, 2024 10:43:25 AM jenkins.InitReactorRunner$1 onAttained
+Mar 16, 2024 8:09:49 PM jenkins.InitReactorRunner$1 onAttained
 INFO: Loaded all jobs
-Mar 16, 2024 10:43:25 AM jenkins.InitReactorRunner$1 onAttained
+Mar 16, 2024 8:09:49 PM jenkins.InitReactorRunner$1 onAttained
 INFO: Configuration for all jobs updated
-Mar 16, 2024 10:43:26 AM jenkins.InitReactorRunner$1 onAttained
+Mar 16, 2024 8:09:50 PM jenkins.InitReactorRunner$1 onAttained
 INFO: Completed initialization
-Mar 16, 2024 10:43:26 AM org.eclipse.jetty.server.Server doStart
-INFO: jetty-9.4.41.v20210516; built: 2021-05-16T23:56:28.993Z; git: 98607f93c7833e7dc59489b13f3cb0a114fb9f4c; jvm 1.8.0_402-b06
-Mar 16, 2024 10:43:26 AM org.eclipse.jetty.server.session.DefaultSessionIdManager doStart
-INFO: DefaultSessionIdManager workerName=node0
-Mar 16, 2024 10:43:26 AM org.eclipse.jetty.server.session.DefaultSessionIdManager doStart
-INFO: No SessionScavenger set, using defaults
-Mar 16, 2024 10:43:26 AM org.eclipse.jetty.server.session.HouseKeeper startScavenging
-INFO: node0 Scavenging every 660000ms
-Mar 16, 2024 10:43:26 AM org.eclipse.jetty.server.handler.ContextHandler doStart
-INFO: Started o.e.j.s.ServletContextHandler@26f1249d{/,null,AVAILABLE}
-Mar 16, 2024 10:43:26 AM org.eclipse.jetty.server.AbstractConnector doStart
-INFO: Started ServerConnector@a68df9{HTTP/1.1, (http/1.1)}{0.0.0.0:50481}
-Mar 16, 2024 10:43:26 AM org.eclipse.jetty.server.Server doStart
-INFO: Started @50168ms
-Mar 16, 2024 10:43:34 AM org.eclipse.jetty.server.AbstractConnector doStop
-INFO: Stopped ServerConnector@73173f63{HTTP/1.1, (http/1.1)}{localhost:0}
-Mar 16, 2024 10:43:34 AM org.eclipse.jetty.server.session.HouseKeeper stopScavenging
-INFO: node0 Stopped scavenging
-Mar 16, 2024 10:43:34 AM org.eclipse.jetty.server.handler.ContextHandler doStop
-INFO: Stopped o.e.j.w.WebAppContext@4678a2eb{Jenkins v2.277.1,/,file:///D:/WorkArea/Plugins/folder-tear-down/target/jenkins-for-test/,STOPPED}{D:\WorkArea\Plugins\folder-tear-down\target\jenkins-for-test}
-Mar 16, 2024 10:43:34 AM jenkins.model.Jenkins cleanUp
+Mar 16, 2024 8:09:52 PM org.eclipse.jetty.server.Server doStart
+INFO: jetty-10.0.19; built: 2023-12-15T20:38:32.477Z; git: 8492d1c78f122bb30cce20aecfa07e7283facd47; jvm 17.0.9+9
+Mar 16, 2024 8:09:52 PM org.eclipse.jetty.server.session.DefaultSessionIdManager doStart
+INFO: Session workerName=node0
+Mar 16, 2024 8:09:52 PM org.eclipse.jetty.server.handler.ContextHandler doStart
+INFO: Started o.e.j.s.ServletContextHandler@77b5148c{/,null,AVAILABLE}
+Mar 16, 2024 8:09:52 PM org.eclipse.jetty.server.AbstractConnector doStart
+INFO: Started ServerConnector@1ab14636{HTTP/1.1, (http/1.1)}{0.0.0.0:52434}
+Mar 16, 2024 8:09:52 PM org.eclipse.jetty.server.Server doStart
+INFO: Started Server@49fdbe2b{STARTING}[10.0.19,sto=0] @18884ms
+Mar 16, 2024 8:09:57 PM org.eclipse.jetty.server.Server doStop
+INFO: Stopped Server@e3994ef{STOPPING}[10.0.19,sto=0]
+Mar 16, 2024 8:09:57 PM org.eclipse.jetty.server.AbstractConnector doStop
+INFO: Stopped ServerConnector@23202c31{HTTP/1.1, (http/1.1)}{localhost:0}
+Mar 16, 2024 8:09:57 PM org.eclipse.jetty.server.handler.ContextHandler doStop
+INFO: Stopped o.e.j.w.WebAppContext@8f2098e{Jenkins v2.426.3,/,file:///D:/WorkArea/folder-tear-down/target/jenkins-for-test/,STOPPED}{D:\WorkArea\folder-tear-down\target\jenkins-for-test}
+Mar 16, 2024 8:09:57 PM hudson.lifecycle.Lifecycle onStatusUpdate
 INFO: Stopping Jenkins
-Mar 16, 2024 10:43:34 AM jenkins.model.Jenkins cleanUp
+Mar 16, 2024 8:09:57 PM hudson.lifecycle.Lifecycle onStatusUpdate
 INFO: Jenkins stopped
+Mar 16, 2024 8:09:57 PM org.jvnet.hudson.test.TemporaryDirectoryAllocator dispose
+INFO: deleting D:\WorkArea\folder-tear-down\target\tmp\j h15044935751981641686

@@ -1,0 +1,13 @@
+io\jenkins\plugins\sample\SampleConfiguration.class
+META-INF\annotations\org.jenkinsci.Symbol
+com\mc\folderteardown\JobTearDownProperty.stapler
+META-INF\annotations\org.kohsuke.stapler.export.ExportedBean
+com\mc\folderteardown\JobTearDownConfiguration.class
+io\jenkins\plugins\sample\SampleConfiguration\doCheckLabel.stapler
+META-INF\exposed.stapler-beans
+com\mc\folderteardown\JobTearDownProperty.javadoc
+com\mc\folderteardown\JobTearDownProperty$DescriptorImpl.class
+META-INF\annotations\hudson.Extension.txt
+com\mc\folderteardown\JobTearDownListener.class
+com\mc\folderteardown\JobTearDownProperty.class
+META-INF\annotations\hudson.Extension

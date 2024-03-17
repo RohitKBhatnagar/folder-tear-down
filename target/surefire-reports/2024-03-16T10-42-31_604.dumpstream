@@ -1,4 +1,0 @@
-# Created at 2024-03-16T10:42:36.154
-Boot Manifest-JAR contains absolute paths in classpath 'D:\WorkArea\Plugins\folder-tear-down\target\test-classes'
-Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
-

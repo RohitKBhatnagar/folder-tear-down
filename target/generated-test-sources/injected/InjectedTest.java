@@ -8,11 +8,11 @@ public class InjectedTest extends junit.framework.TestCase {
   public static junit.framework.Test suite() throws Exception {
     System.out.println("Running tests for "+"io.jenkins.plugins:folder-tear-down:1.0-SNAPSHOT");
     Map<String, Object> parameters = new HashMap<String, Object>();
-    parameters.put("basedir","D:\\WorkArea\\Plugins\\folder-tear-down");
+    parameters.put("basedir","D:\\WorkArea\\folder-tear-down");
     parameters.put("artifactId","folder-tear-down");
     parameters.put("packaging","hpi");
-    parameters.put("outputDirectory","D:\\WorkArea\\Plugins\\folder-tear-down\\target\\classes");
-    parameters.put("testOutputDirectory","D:\\WorkArea\\Plugins\\folder-tear-down\\target\\test-classes");
+    parameters.put("outputDirectory","D:\\WorkArea\\folder-tear-down\\target\\classes");
+    parameters.put("testOutputDirectory","D:\\WorkArea\\folder-tear-down\\target\\test-classes");
     parameters.put("requirePI","true");
     return org.jvnet.hudson.test.PluginAutomaticTestBuilder.build(parameters);
   }

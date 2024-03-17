@@ -1,0 +1,28 @@
+Manifest-Version: 1.0
+Created-By: Maven Archiver 3.6.0
+Build-Jdk-Spec: 17
+Specification-Title: Folder Tear Down
+Specification-Version: 1.0
+Implementation-Title: Folder Tear Down
+Implementation-Version: 1.0-SNAPSHOT
+Group-Id: io.jenkins.plugins
+Artifact-Id: folder-tear-down
+Short-Name: folder-tear-down
+Long-Name: Folder Tear Down
+Url: https://github.com/jenkinsci/folder-tear-down
+Plugin-Version: 1.0-SNAPSHOT (private-b3772574-dc-user)
+Hudson-Version: 2.426.3
+Jenkins-Version: 2.426.3
+Plugin-Dependencies: workflow-cps-global-lib:2.21,workflow-multibranch:7
+ 56.v891d88f2cd46,git:5.2.1
+Plugin-Developers: Rohit K Bhatnagar:RohitKBhatnagar:RohitKBhatnagar@gma
+ il.com
+Plugin-License-Name: MIT License
+Plugin-License-Url: https://opensource.org/licenses/MIT
+Plugin-ScmConnection: scm:git:https://github.com/jenkinsci/folder-tear-d
+ own-plugin
+Plugin-ScmTag: HEAD
+Plugin-ScmUrl: https://github.com/jenkinsci/folder-tear-down-plugin
+Plugin-GitHash: b3772574b952f7050692d54829feb2a1e70dff0a
+Implementation-Build: b3772574b952f7050692d54829feb2a1e70dff0a
+

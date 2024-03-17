@@ -1,23 +1,26 @@
 Manifest-Version: 1.0
 Group-Id: io.jenkins.plugins
+Artifact-Id: folder-tear-down
 Short-Name: folder-tear-down
 Long-Name: Folder Tear Down
-Url: https://github.com/jenkinsci/folder-tear-down-plugin
-Minimum-Java-Version: 1.8
-Plugin-Version: 1.0-SNAPSHOT (private-03/16/2024 10:42-dc-user)
-Hudson-Version: 2.277.1
-Jenkins-Version: 2.277.1
-Plugin-Dependencies: workflow-cps-global-lib:2.21,workflow-multibranch
- :2.24,git:3.6.0
-Plugin-Developers: Rohit K Bhatnagar:RohitBhatnagar:Rohit.Bhatnagar@ma
- stercard.com
+Url: https://github.com/jenkinsci/folder-tear-down
+Plugin-Version: 1.0-SNAPSHOT (private-b3772574-dc-user)
+Hudson-Version: 2.426.3
+Jenkins-Version: 2.426.3
+Plugin-Dependencies: workflow-cps-global-lib:2.21,workflow-multibranch:7
+ 56.v891d88f2cd46,git:5.2.1
+Plugin-Developers: Rohit K Bhatnagar:RohitKBhatnagar:RohitKBhatnagar@gma
+ il.com
 Plugin-License-Name: MIT License
 Plugin-License-Url: https://opensource.org/licenses/MIT
+Plugin-ScmConnection: scm:git:https://github.com/jenkinsci/folder-tear-d
+ own-plugin
+Plugin-ScmTag: HEAD
 Plugin-ScmUrl: https://github.com/jenkinsci/folder-tear-down-plugin
-Libraries: D:\WorkArea\Plugins\folder-tear-down\src\main\resources,D:\
- WorkArea\Plugins\folder-tear-down\target\classes,C:\Users\dc-user\.m2
- \repository\net\i2p\crypto\eddsa\0.3.0\eddsa-0.3.0.jar,C:\Users\dc-us
- er\.m2\repository\org\jenkins-ci\annotation-indexer\1.12\annotation-i
- ndexer-1.12.jar
-Resource-Path: D:\WorkArea\Plugins\folder-tear-down\src\main\webapp
+Plugin-GitHash: b3772574b952f7050692d54829feb2a1e70dff0a
+Implementation-Build: b3772574b952f7050692d54829feb2a1e70dff0a
+Libraries: D:\WorkArea\folder-tear-down\src\main\resources,D:\WorkArea\f
+ older-tear-down\target\classes,C:\Users\dc-user\.m2\repository\org\jenk
+ ins-ci\annotation-indexer\1.12\annotation-indexer-1.12.jar
+Resource-Path: D:\WorkArea\folder-tear-down\src\main\webapp
 
